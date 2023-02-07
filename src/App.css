@@ -9,9 +9,10 @@ button:hover{
 	border:2px solid black;
 	
 }
-nav ul li a: hover{
+nav ul li a:hover{
 	background-color: black;
 	color: white;
+	padding: .5rem;
 }
 h1, h2, h3, h4, h5{
 	font-weight: bold;

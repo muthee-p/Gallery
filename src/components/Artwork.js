@@ -75,7 +75,7 @@ const Artwork = () => {
 			exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti 
 			et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque.
 		</p>
-		<Link to="/mary"><button className='mt-4'>READ MORE</button></Link>
+		<Link to="/kupoayo"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 	</div>
 	
@@ -89,10 +89,10 @@ const Artwork = () => {
 			exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti 
 			et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque.
 		</p>
-		<Link to="/akachi"><button className='mt-4'>READ MORE</button></Link>
+		<Link to="/atus"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 		<div className='w-[50%] flex justify-center'  >
-			<img src={Atus} alt="Maasai woman" className='w-[50%]'/>
+		<Link to="/atus"><img src={Atus} alt="Maasai woman" className='w-[50%]'/></Link>
 		</div>
 	</div>
 	

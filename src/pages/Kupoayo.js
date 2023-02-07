@@ -1,18 +1,16 @@
 import React from 'react';
-import AkotheeDp from '../assets/akothee.jpg';
-import AkotheeOne from '../assets/akothee1.jpg';
-import AkotheeTwo from '../assets/akothee2.jpg';
-import AkotheeThree from '../assets/akothee3.jpg';
-import AkotheeFour from '../assets/akothee4.jpg';
-import AkotheeFive from '../assets/akothee5.jpg';
-import AkotheeSix from '../assets/akothee6.jpg';
+import { Link } from 'react-router-dom';
+import DaudiDp from '../assets/daudi.jpg';
+import KupoayoOne from '../assets/kupoayo.jpeg';
+import KupoayoTwo from '../assets/kupoayo2.jpeg';
+import KupoayoThree from '../assets/kupoayo3.jpeg';
 
-const Akothee = () => {
+const Kupoayo = () => {
   return (
-    <div className="content">
-    <h2 className='mb-4 text-center'>AKOTHEE WINNIE </h2>
+    <div>
+    <h2 className='mb-4 text-center'>DAUDI CHIWAWA </h2>
     <div className='flex justify-center items-center mb-12'>
-    <img src={AkotheeDp} className='w-[30%] rounded-2xl' />
+    <img src={DaudiDp} className='w-[30%] rounded-2xl' alt="dp"/>
 	<div className='w-[50%] p-8'>
 		<h3 className='text-center mb-4'>Whom am i? </h3>
 		<p>
@@ -35,18 +33,19 @@ const Akothee = () => {
 	<h3 className='text-center mb-4'>ARTWORKS AVAILABLE</h3>
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ AkotheeOne} />
-			</div>
+			<Link to='/artists/kupoayo/kupoayoslide' className=' h-[36rem] flex justify-center mb-4'>
+				<img src={ KupoayoOne} alt="woman" />
+			</Link>
+			
 			<h5>Id quisquam quia eos dolorem doloribus</h5>
 			<p><span>Material:</span> Canvas</p>
 			<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
 
 		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={AkotheeTwo} />
-			</div>
+			<Link to="/artists/kupoayo/kupoayoslide" className=' h-[36rem] flex justify-center mb-4'>
+				<img src={KupoayoTwo} alt="maasai"/>
+			</Link>
 			<h5>Id quisquam quia eos dolorem doloribus</h5>
 			<p><span>Material:</span> Canvas</p>
 			<p><span>Dimensions:</span>32 x 40 in</p>
@@ -55,46 +54,17 @@ const Akothee = () => {
 
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ AkotheeThree} />
-			</div>
+			<Link to='/artists/kupoayo/kupoayoslide' className=' h-[36rem] flex justify-center mb-4'>
+				<img src={ KupoayoThree} alt="mountain" />
+			</Link>
 		<h5>Id quisquam quia eos dolorem doloribus</h5>
 		<p><span>Material:</span> Canvas</p>
 		<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
-
-		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ AkotheeFour} />
-			</div>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
-		<p><span>Material:</span> Canvas</p>
-		<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
-	</div>
-
-	<div className='flex justify-around w-[100%] text-center'>
-		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ AkotheeFive} />
-			</div>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
-		<p><span>Material:</span> Canvas</p>
-		<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
-
-		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ AkotheeSix} />
-			</div>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
-		<p><span>Material:</span> Canvas</p>
-		<p><span>Dimensions:</span>32 x 40 in</p>
-		</div>
-	</div>
-    </div>
     
     </div>
     )
 }
-export default Akothee ;
+export default Kupoayo ;

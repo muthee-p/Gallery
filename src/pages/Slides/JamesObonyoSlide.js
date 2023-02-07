@@ -1,31 +1,12 @@
 import React, {useState} from 'react';
 import { MdArrowBackIos, MdArrowForwardIos} from 'react-icons/md';
-import SuzieOne from '../assets/suzie1.jpg';
-import SuzieTwo from '../assets/suzie2.jpg';
-import SuzieThree from '../assets/suzie3.jpg';
-import SuzieFour from '../assets/suzie4.jpg';
-import SuzieFive from '../assets/suzie5.jpg';
-import SuzieSix from '../assets/suzie6.jpg';
+import Atus from '../../assets/Atus.jpeg';
 
-const SuzieSlide = () => {
+
+const JamesObonyoSlide = () => {
 	const slide =[
 	{
-		imge: SuzieOne
-	},
-	{
-		imge: SuzieTwo
-	},
-	{
-		imge: SuzieThree
-	},
-	{
-		imge: SuzieFour
-	},
-	{
-		imge: SuzieFive
-	},
-	{
-		imge: SuzieSix
+		imge: Atus
 	}
 	];
 	const [currentIndex, setCurrentIndex] = useState(0);
@@ -64,4 +45,4 @@ const SuzieSlide = () => {
   	</div>
   	);
 }
-export default SuzieSlide;
+export default JamesObonyoSlide;
