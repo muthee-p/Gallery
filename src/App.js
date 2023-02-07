@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter,Routes, Route, Outlet} from "react-router-dom";
+import {BrowserRouter,Routes, Route} from "react-router-dom";
 import { Nav, Home, Artists, Artwork, Exhibition, Footer, PageNotFound, Layout} from'./components';
 import { Daudi, Akachi, Akothee, Juma, Mary, Suzie, SuzieSlide} from'./pages';
 

@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
   // import Swiper styles
 import 'swiper/css';
@@ -8,17 +8,18 @@ import 'swiper/css/navigation';
 import { Autoplay, Navigation, Pagination } from "swiper";
 
 
-import JumaThree from '../assets/juma3.jpg';
-import JumaSix from '../assets/juma6.jpg';
+import Atus from '../assets/Atus.jpeg';
+import MchechuThree from '../assets/mchechu3.jpeg';
+import BonMwiru from '../assets/bonmwiru.jpeg';
+import KamyosoOne from '../assets/kamyoso1.jpeg';
+import KupoayoTwo from '../assets/kupoayo2.jpeg';
 import DaudiFour from '../assets/daudi4.jpg';
-import DaudiFive from '../assets/daudi5.jpg';
 import AkachiOne from '../assets/akachi1.jpg';
 import SuzieTwo from '../assets/suzie2.jpg';
-import SuzieOne from '../assets/suzie1.jpg';
 import MaryFour from '../assets/mary4.png';
 import MaryThree from '../assets/mary3.png';
 import AkotheeOne from '../assets/akothee1.jpg';
-import AkotheeFive from '../assets/akothee5.jpg';
+import Gallery from "../assets/gallery.jpg";
 
 
 const Home = () => {
@@ -40,20 +41,24 @@ const Home = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper "
       >
-        <SwiperSlide className='absolute left-[15%]'>
-        	<img src={ JumaThree} alt='juma'className='w-[70%] '/>
+        <SwiperSlide className='absolute left-[25%]'>
+        	<img src={ Atus} alt='maasai woman' className='w-[30%] '/>
         </SwiperSlide>
 
-        <SwiperSlide className='absolute left-[15%]'>
-        	<img src={ AkotheeFive} alt='akothee'className='w-[60%]'/>
+        <SwiperSlide className='absolute left-[25%]'>
+        	<img src={ MchechuThree} alt='Lion'className='w-[30%]'/>
         </SwiperSlide>
 
-        <SwiperSlide className='absolute left-[15%]'>
-        	<img src={ DaudiFive} alt='suzie' className='w-[70%]'/>
+        <SwiperSlide className='absolute left-[25%]'>
+        	<img src={ KamyosoOne} alt='zebra drinking water' className='w-[30%]'/>
         </SwiperSlide>
 
-        <SwiperSlide className='absolute left-[15%]'>
-        	<img src={ JumaSix} alt='suzie' className='w-[70%]'/>
+        <SwiperSlide className='absolute left-[25%]'>
+        	<img src={ BonMwiru} alt='lady playing the instrument' className='w-[30%]'/>
+        </SwiperSlide>
+
+		<SwiperSlide className='absolute left-[25%]'>
+        	<img src={ KupoayoTwo} alt='maasai man' className='w-[30%]'/>
         </SwiperSlide>
         
       </Swiper>
@@ -62,14 +67,19 @@ const Home = () => {
    
     </section>
 
-    <section class=" text-center w-[60%] h-[30%] mb-8 ">
+    <section class=" text-center  h-[30%] mb-8 ">
 		<h2>About Us</h2>
-		<div>
-		<p className='self-center'>
+		<div className="flex justify-around">
+		<div className="w-[50%] self-center">
+			<img src={Gallery} alt="gallery" className='w-[80%]' />
+		</div>
+		<div className='w-[50%] p-4 flex items-center'>
+		<p className=''>
 			Lorem ipsum dolor sit amet. Cum placeat dolor id ipsa autem est aperiam suscipit aut debitis saepe qui nihil alias eos minima omnis. In accusantium aliquid id possimus voluptatibus et iusto similique eos excepturi accusamus. Qui modi tempore ut facilis labore eos nesciunt quia et Quis libero et dolores ipsa qui accusantium velit!
 
 			Et corporis dolorem aut vitae rerum qui quos porro ad quidem voluptates ut veritatis ipsam. Et quidem porro aut eligendi explicabo qui voluptatem veritatis ad praesentium numquam. Id quasi ratione est modi omnis 33 culpa veniam in incidunt ipsa ut maxime tempora ea reprehenderit magni. Et dolore reiciendis aut dolores vero vel vitae totam?
 		</p>
+		</div>
 		</div>
 	</section>
 	
