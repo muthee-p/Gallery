@@ -3,13 +3,12 @@ import { NavLink } from 'react-router-dom';
 import Logo from '../assets/logo2.png';
 import { AiFillInstagram } from 'react-icons/ai';
 
-
 const Nav = () => {
   const activeLink = 'bg-black text-white p-3';
   const regular = '';
   return (
     <nav className='fixed z-50 top-0 w-[100%] p-2 flex justify-between items-center border-b border-black pr-8 pl-8 bg-white'>
-    <NavLink to="/"><img src={ Logo} className='w-[30%]' alt='logo'/></NavLink>
+    <NavLink to="/"><img src={ Logo} className='w-[30%]' alt='logo'/><h4>Tanzania Arts</h4></NavLink>
     
   	<ul className='inline-flex'>
       <li className='mr-6'>
