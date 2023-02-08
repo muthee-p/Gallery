@@ -1,5 +1,5 @@
 import React from 'react';
-import DaudiSix from '../assets/daudi6.jpg';
+import BonMwiru from '../assets/bonmwiru.jpeg';
 import AkachiFive from '../assets/akachi5.jpg';
 
 const Exhibition = () => {
@@ -7,7 +7,7 @@ const Exhibition = () => {
     <div className="pt-20 p-8">
     <div>
 		<h2 className='text-center m-4'>UPCOMING</h2>
-		<img src={DaudiSix} alt='landscape'className='w-[20%]'/>
+		<img src={BonMwiru} alt='woman playiong music' className='w-[20%]'/>
 		<h5>Sarit Rooftop</h5>
 		<p>Saturday 14th January 2023</p>
 	</div>

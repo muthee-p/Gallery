@@ -9,16 +9,16 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 
 
 import Atus from '../assets/Atus.jpeg';
+import MchechuTwo from '../assets/mchechu2.jpeg';
 import MchechuThree from '../assets/mchechu3.jpeg';
 import BonMwiru from '../assets/bonmwiru.jpeg';
 import KamyosoOne from '../assets/kamyoso1.jpeg';
+import KamyosoTwo from '../assets/kamyoso2.jpeg';
 import KupoayoTwo from '../assets/kupoayo2.jpeg';
-import DaudiFour from '../assets/daudi4.jpg';
 import AkachiOne from '../assets/akachi1.jpg';
 import SuzieTwo from '../assets/suzie2.jpg';
 import MaryFour from '../assets/mary4.png';
 import MaryThree from '../assets/mary3.png';
-import AkotheeOne from '../assets/akothee1.jpg';
 import Gallery from "../assets/gallery.jpg";
 
 
@@ -99,7 +99,7 @@ const Home = () => {
 
 		<div  className=' w-[32%]'>
 			<div className='h-[25rem] flex justify-center items-center'>
-				<img src={AkotheeOne} alt ='akothee'className='max-h-[20rem]'  />
+				<img src={KamyosoTwo} alt ='two elephants' className='max-h-[20rem]'  />
 			</div>
 			<h5>The Blues </h5>
 			<p>Oil on linen</p>
@@ -108,7 +108,7 @@ const Home = () => {
 
 		<div  className=' w-[32%]'>
 			<div className='h-[25rem] flex justify-center items-center'>
-				<img src={DaudiFour} alt='daudi' className='max-h-[20rem]' />
+				<img src={MchechuTwo} alt='daudi' className='max-h-[20rem]' />
 			</div>
 			<h5>The Cliff </h5>
 			<p>Photograph on Print</p>

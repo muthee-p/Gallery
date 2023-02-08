@@ -4,7 +4,7 @@ import Daudi from '../assets/daudi.jpg';
 import Atus from '../assets/Atus.jpeg';
 import Akachi from '../assets/akachi.jpg';
 import Mary from '../assets/mary.jpg';
-import Juma from '../assets/juma.jpg';
+import BonMwiru from '../assets/bonmwiru.jpeg';
 import Suzie from '../assets/suzie.jpg';
 
 
@@ -49,7 +49,7 @@ const Artist = () => {
 	<div className='flex items-center p-8'>
 		
 		<div className='w-[45%] '>
-		<h4 className='mb-4'>Juma</h4>
+		<h4 className='mb-4'> Bon Mwiru</h4>
 		<p>
 			Lorem ipsum dolor sit amet. Ea incidunt incidunt ut vitae temporibus aut asperiores quasi 
 			At possimus voluptatem. Vel aperiam voluptatum eum iusto molestiae aut illo officiis eos aspernatur 
@@ -59,7 +59,7 @@ const Artist = () => {
 		<Link to="/juma"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 		<div className='w-[50%] flex justify-center'  >
-			<img src={Juma}  className='w-[50%]'/>
+			<img src={BonMwiru}  className='w-[50%]' alt='woman playing instrument'/>
 			</div>
 	</div>
 

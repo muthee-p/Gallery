@@ -8,9 +8,9 @@ const Nav = () => {
   const regular = '';
   return (
     <nav className='fixed z-50 top-0 w-[100%] p-2 flex justify-between items-center border-b border-black pr-8 pl-8 bg-white'>
-    <div className='inline-flex justify-between'>
-      <NavLink to="/"><img src={ Logo} className='w-[30%]' alt='logo'/></NavLink>
-      <NavLink to="/"><h4>Tanzania Arts</h4></NavLink>
+    <div className='flex justify-between'>
+      <NavLink to="/"><img src={ Logo} className='w-[50%]' alt='logo'/></NavLink>
+      <NavLink to="/"><h4 className='w-[50%]'>Tanzania Arts</h4></NavLink>
     </div>
     
   	<ul className='inline-flex'>

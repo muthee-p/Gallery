@@ -1,18 +1,14 @@
 import React from 'react';
-import JumaDp from '../assets/juma.jpg';
-import JumaOne from '../assets/juma1.jpg';
-import JumaTwo from '../assets/juma2.jpg';
-import JumaThree from '../assets/juma3.jpg';
-import JumaFour from '../assets/juma4.jpg';
-import JumaFive from '../assets/juma5.jpg';
-import JumaSix from '../assets/juma6.jpg';
+import MchechuOne from '../assets/mchechu.jpeg';
+import MchechuTwo from '../assets/mchechu2.jpeg';
+import MchechuThree from '../assets/mchechu3.jpeg';
 
-const Juma = () => {
+const Mchechu = () => {
   return (
     <div className="content">
-    <h2 className='mb-4 text-center'>JUMA ALEX </h2>
+    <h2 className='mb-4 text-center'>MCHECHU </h2>
     <div className='flex justify-center items-center mb-12'>
-    <img src={JumaDp} className='w-[30%] rounded-2xl' />
+    <img src={MchechuOne} className='w-[30%] rounded-2xl' alt="chui" />
 	<div className='w-[50%] p-8'>
 		<h3 className='text-center mb-4'>Whom am i? </h3>
 		<p>
@@ -36,7 +32,7 @@ const Juma = () => {
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
 			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ JumaOne} />
+				<img src={ MchechuOne} alt='chui' />
 			</div>
 			<h5>Id quisquam quia eos dolorem doloribus</h5>
 			<p><span>Material:</span> Canvas</p>
@@ -45,7 +41,7 @@ const Juma = () => {
 
 		<div className='w-[50%] m-4 p-2'>
 			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={JumaTwo} />
+				<img src={MchechuTwo} alt='zebra' />
 			</div>
 			<h5>Id quisquam quia eos dolorem doloribus</h5>
 			<p><span>Material:</span> Canvas</p>
@@ -56,45 +52,17 @@ const Juma = () => {
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
 			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ JumaThree} />
-			</div>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
-		<p><span>Material:</span> Canvas</p>
-		<p><span>Dimensions:</span>32 x 40 in</p>
-		</div>
-
-		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ JumaFour} />
+				<img src={ MchechuThree} alt='lion'/>
 			</div>
 		<h5>Id quisquam quia eos dolorem doloribus</h5>
 		<p><span>Material:</span> Canvas</p>
 		<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
 	</div>
-
-	<div className='flex justify-around w-[100%] text-center'>
-		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ JumaFive} />
-			</div>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
-		<p><span>Material:</span> Canvas</p>
-		<p><span>Dimensions:</span>32 x 40 in</p>
-		</div>
-
-		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ JumaSix} />
-			</div>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
-		<p><span>Material:</span> Canvas</p>
-		<p><span>Dimensions:</span>32 x 40 in</p>
-		</div>
 	</div>
-    </div>
+	
     
     </div>
     )
 }
-export default Juma ;
+export default Mchechu ;
