@@ -14,6 +14,10 @@ nav ul li a:hover{
 	color: white;
 	padding: .5rem;
 }
+.social-icon:hover{
+	color: black; 
+}
+
 h1, h2, h3, h4, h5{
 	font-weight: bold;
 	margin-top: 1rem;

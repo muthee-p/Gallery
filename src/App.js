@@ -1,8 +1,8 @@
 import './App.css';
 import {BrowserRouter,Routes, Route} from "react-router-dom";
 import { Home, Artists, Artwork, Exhibition, PageNotFound, Layout} from'./components';
-import { Kupoayo, Akachi, JamesObonyo, Mchechu, Mary, Suzie} from'./pages';
-import { KupoayoSlide, JamesObonyoSlide} from'./pages/Slides';
+import { Kupoayo, Akachi, JamesObonyo, Mchechu, Mary, Kamyoso} from'./pages';
+import { KupoayoSlide, JamesObonyoSlide, MchechuSlide, KamyosoSlide} from'./pages/Slides';
 
 function App() {
   
@@ -21,9 +21,10 @@ function App() {
           <Route path ="/artists/jamesobonyo" element={<JamesObonyo />} />
            <Route path ="/artists/jamesobonyo/jamesobonyoslide" element={<JamesObonyoSlide />} />
           <Route path ="/artists/mchechu" element={<Mchechu />} />
+            <Route path ="/artists/mchechu/mchechuslide" element={<MchechuSlide />} />
           <Route path ="mary" element={<Mary />} />
-          <Route path ="suzie" element={<Suzie />} />
-          
+          <Route path ="/artist/kamyoso" element={<Kamyoso />} />
+          <Route path ="/artists/kamyoso/kamyososlide" element={<KamyosoSlide />} />
         <Route path="artwork" element={<Artwork />} />
         <Route path="exhibition" element={<Exhibition />} />
         </Route>

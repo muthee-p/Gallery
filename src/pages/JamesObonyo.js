@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AtusArt from '../assets/Atus.jpeg';
 
 const JamesObonyo = () => {
@@ -29,9 +30,9 @@ const JamesObonyo = () => {
 	<h3 className='text-center mb-4'>ARTWORKS AVAILABLE</h3>
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
+			<Link to='/artists/jamesobonyo/jamesobonyoslide' className=' h-[36rem] flex justify-center mb-4'>
 				<img src={AtusArt} alt="woman" />
-			</div>
+			</Link>
 			<h5>Id quisquam quia eos dolorem doloribus</h5>
 			<p><span>Material:</span> Canvas</p>
 			<p><span>Dimensions:</span>32 x 40 in</p>

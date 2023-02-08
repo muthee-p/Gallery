@@ -5,12 +5,12 @@ import { AiFillInstagram } from 'react-icons/ai';
 
 const Nav = () => {
   const activeLink = 'bg-black text-white p-[.5rem]';
-  const regular = '';
+  const regular = 'p-[.5rem]';
   return (
     <nav className='fixed z-50 top-0 w-[100%] p-2 flex justify-between items-center border-b border-black pr-8 pl-8 bg-white'>
-    <div className='flex justify-between'>
-      <NavLink to="/"><img src={ Logo} className='w-[50%]' alt='logo'/></NavLink>
-      <NavLink to="/"><h4 className='w-[50%]'>Tanzania Arts</h4></NavLink>
+    <div className='flex justify-around'>
+      <NavLink to="/" className='w-[35%] mr-6'><img src={ Logo} className='w-[80%]' alt='logo'/></NavLink>
+      <NavLink to="/" className='w-[65%] self-center'><h4 className='navh4' >Tanzania Arts</h4></NavLink>
     </div>
     
   	<ul className='inline-flex'>
@@ -30,11 +30,11 @@ const Nav = () => {
           Artists</NavLink>
       </li>
 
-      <li >
+      <li className ='mr-6'>
         <NavLink to="/exhibition" className={({isActive}) => isActive? activeLink: regular}>Exhibition</NavLink>
       </li>
       <li>
-        <NavLink to="https://www.instagram.com/african_paintings_pics/" className='mr-[2] w-[20%]'><AiFillInstagram /></NavLink>
+        <NavLink to="https://www.instagram.com/african_paintings_pics/" className='social-icon self-center text-lg'><AiFillInstagram /></NavLink>
       </li>
        
     </ul>

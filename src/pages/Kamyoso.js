@@ -1,19 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import SuzieDp from '../assets/suzie.jpg';
-import SuzieOne from '../assets/suzie1.jpg';
-import SuzieTwo from '../assets/suzie2.jpg';
-import SuzieThree from '../assets/suzie3.jpg';
-import SuzieFour from '../assets/suzie4.jpg';
-import SuzieFive from '../assets/suzie5.jpg';
-import SuzieSix from '../assets/suzie6.jpg';
+import KamyosoOne from '../assets/kamyoso1.jpeg';
+import KamyosoTwo from '../assets/kamyoso2.jpeg';
+import KamyosoThree from '../assets/kamyoso3.jpeg';
 
-const Suzie = () => {
+const Kamyoso = () => {
   return (
     <div >
-    <h2 className='mb-4 text-center'>SUZIE MOBOYOKO </h2>
+    <h2 className='mb-4 text-center'>KAMYOSO</h2>
     <div className='flex justify-center items-center mb-12'>
-    <img src={SuzieDp} className='w-[30%] rounded-2xl' />
+    <img src={KamyosoOne} className='w-[30%] rounded-2xl' alt='zebra drinking water' />
 	<div className='w-[50%] p-8'>
 		<h3 className='text-center mb-4'>Whom am i? </h3>
 		<p>
@@ -36,9 +32,9 @@ const Suzie = () => {
 	<h3 className='text-center mb-4'>ARTWORKS AVAILABLE</h3>
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-		<Link to='/suzieslide'>
+		<Link to='/artists/kamyoso/kamyososlide'>
 			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ SuzieOne} />
+				<img src={ KamyosoOne} alt='zebra drinking water'/>
 			</div>
 			</Link>
 			<h5>Id quisquam quia eos dolorem doloribus</h5>
@@ -47,9 +43,9 @@ const Suzie = () => {
 		</div>
 
 		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={SuzieTwo} />
-			</div>
+			<Link to='/artists/kamyoso/kamyososlide' className=' h-[36rem] flex justify-center mb-4'>
+				<img src={KamyosoTwo} alt='two elephants'/>
+			</Link>
 			<h5>Id quisquam quia eos dolorem doloribus</h5>
 			<p><span>Material:</span> Canvas</p>
 			<p><span>Dimensions:</span>32 x 40 in</p>
@@ -58,38 +54,9 @@ const Suzie = () => {
 
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ SuzieThree} />
-			</div>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
-		<p><span>Material:</span> Canvas</p>
-		<p><span>Dimensions:</span>32 x 40 in</p>
-		</div>
-
-		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ SuzieFour} />
-			</div>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
-		<p><span>Material:</span> Canvas</p>
-		<p><span>Dimensions:</span>32 x 40 in</p>
-		</div>
-	</div>
-
-	<div className='flex justify-around w-[100%] text-center'>
-		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ SuzieFive} />
-			</div>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
-		<p><span>Material:</span> Canvas</p>
-		<p><span>Dimensions:</span>32 x 40 in</p>
-		</div>
-
-		<div className='w-[50%] m-4 p-2'>
-			<div className=' h-[36rem] flex justify-center mb-4'>
-				<img src={ SuzieSix} />
-			</div>
+			<Link to='/artists/kamyoso/kamyososlide' className=' h-[36rem] flex justify-center mb-4'>
+				<img src={ KamyosoThree} alt='two elephants'/>
+			</Link>
 		<h5>Id quisquam quia eos dolorem doloribus</h5>
 		<p><span>Material:</span> Canvas</p>
 		<p><span>Dimensions:</span>32 x 40 in</p>
@@ -100,4 +67,4 @@ const Suzie = () => {
     </div>
     )
 }
-export default Suzie ;
+export default Kamyoso ;
