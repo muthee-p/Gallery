@@ -25,7 +25,7 @@ const Artwork = () => {
 			exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti 
 			et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque.
 		</p>
-		<Link to="/daudi"><button className='mt-4'>READ MORE</button></Link>
+		<Link to="/artists/mchechu"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 	</div>
 
@@ -39,7 +39,7 @@ const Artwork = () => {
 			exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti 
 			et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque.
 		</p>
-		<Link to="/akothee"><button className='mt-4'>READ MORE</button></Link>
+		<Link to="/artists/bonmwiru"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 		<div className='w-[50%] flex justify-center'  >
 			<img src={BonMwiru} alt='woman playing instrument' className='w-[50%]'/>
@@ -56,7 +56,7 @@ const Artwork = () => {
 			exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti 
 			et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque.
 		</p>
-		<Link to="/juma"><button className='mt-4'>READ MORE</button></Link>
+		<Link to="/artists/kamyoso"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 		<div className='w-[50%] flex justify-center'  >
 			<img src={KamyosoTwo} alt='elephant and calf'  className='w-[50%]'/>
@@ -75,7 +75,7 @@ const Artwork = () => {
 			exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti 
 			et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque.
 		</p>
-		<Link to="/kupoayo"><button className='mt-4'>READ MORE</button></Link>
+		<Link to="/artists/kupoayo"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 	</div>
 	
@@ -92,7 +92,7 @@ const Artwork = () => {
 		<Link to="/atus"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 		<div className='w-[50%] flex justify-center'  >
-		<Link to="/atus"><img src={Atus} alt="Maasai woman" className='w-[50%]'/></Link>
+		<Link to="/artists/jamesobonyo"><img src={Atus} alt="Maasai woman" className='w-[50%]'/></Link>
 		</div>
 	</div>
 	
@@ -108,7 +108,7 @@ const Artwork = () => {
 			exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti 
 			et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque.
 		</p>
-		<Link to="/suzie"><button className='mt-4'>READ MORE</button></Link>
+		<Link to="/artists/mchechu"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 	</div>
 

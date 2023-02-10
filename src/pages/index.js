@@ -4,6 +4,6 @@ export {default as Mchechu} from './Mchechu';
 export {default as Mary} from './Mary';
 export {default as Kamyoso} from './Kamyoso';
 export {default as JamesObonyo} from './JamesObonyo';
-
+export {default as BonMwiru} from './BonMwiru';
 
 

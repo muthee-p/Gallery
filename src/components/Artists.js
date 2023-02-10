@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Daudi from '../assets/daudi.jpg';
 import Atus from '../assets/Atus.jpeg';
-import Akachi from '../assets/akachi.jpg';
+import Mchechu from '../assets/mchechu.jpeg';
 import Mary from '../assets/mary.jpg';
 import BonMwiru from '../assets/bonmwiru.jpeg';
 import Suzie from '../assets/suzie.jpg';
@@ -56,7 +56,7 @@ const Artist = () => {
 			exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti 
 			et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque.
 		</p>
-		<Link to="/juma"><button className='mt-4'>READ MORE</button></Link>
+		<Link to="/artists/bonmwiru"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 		<div className='w-[50%] flex justify-center'  >
 			<img src={BonMwiru}  className='w-[50%]' alt='woman playing instrument'/>
@@ -82,17 +82,17 @@ const Artist = () => {
 	<div className='flex items-center p-8'>
 		
 		<div className='w-[50%] '>
-		<h4 className='mb-4'>Akachi</h4>
+		<h4 className='mb-4'>Mchechu</h4>
 		<p>
 			Lorem ipsum dolor sit amet. Ea incidunt incidunt ut vitae temporibus aut asperiores quasi 
 			At possimus voluptatem. Vel aperiam voluptatum eum iusto molestiae aut illo officiis eos aspernatur 
 			exercitationem est veritatis fugiat eum magnam aspernatur. Ex accusantium harum qui molestiae corrupti 
 			et omnis molestiae vel voluptatibus inventore est incidunt dolore aut explicabo quas qui perferendis itaque.
 		</p>
-		<Link to="/akachi"><button className='mt-4'>READ MORE</button></Link>
+		<Link to="/artists/mchechu"><button className='mt-4'>READ MORE</button></Link>
 		</div>
 		<div className='w-[50%] flex justify-center'  >
-			<img src={Akachi}  className='w-[50%]'/>
+			<img src={Mchechu}  className='w-[50%]'/>
 		</div>
 	</div>
 	
