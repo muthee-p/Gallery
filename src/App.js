@@ -7,8 +7,8 @@ import { KupoayoSlide, JamesObonyoSlide, MchechuSlide, KamyosoSlide, BonMwiruSli
 function App() {
   
   return (
-    <div className="App flex justify-center items-center">
-      <div className=' lg:w-[85%]'>
+    <div className="App ">
+      
     <BrowserRouter >
       <Routes>
       <Route path="/" element={<Layout />}>
@@ -36,7 +36,7 @@ function App() {
         
       </Routes>
       </BrowserRouter>
-      </div>
+      
     </div>
   );
 }
