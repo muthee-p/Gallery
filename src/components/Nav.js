@@ -1,45 +1,53 @@
-import React from 'react';
+import React, { useState } from 'react'
+import { AiFillInstagram } from 'react-icons/ai';
 import { NavLink } from 'react-router-dom';
 import Logo from '../assets/logo2.png';
-import { AiFillInstagram } from 'react-icons/ai';
+import LogoMobile from '../assets/logophone.png';
+import {FaBars, FaTimes} from 'react-icons/fa'
 
 const Nav = () => {
-  const activeLink = 'bg-black text-white p-[.5rem]';
-  const regular = 'p-[.5rem]';
-  return (
-    <nav className='fixed z-50 top-0 w-[100%] p-2 flex justify-between items-center border-b border-black pr-8 pl-8 bg-white'>
-    <div className='flex justify-around'>
-      <NavLink to="/" className='w-[35%] mr-6'><img src={ Logo} className='w-[80%]' alt='logo'/></NavLink>
-      <NavLink to="/" className='w-[65%] self-center'><h4 className='navh4' >Tanzania Arts</h4></NavLink>
-    </div>
+    const Links =[
+      {name:"HOME",link:"/"},
+      {name:"ARTWORKS",link:"/artwork"},
+      {name:"EXHIBITION",link:"/exhibition"},
+      {name:"CONTACT",link:"/contact"},
+    ];
+    const [open,setOpen]=useState(false);
     
-  	<ul className='inline-flex'>
-      <li className='mr-6'>
-        <NavLink to="/" className={({isActive}) => isActive? activeLink: regular}>
-          Home
+  return (
+    <div className='shadow-xl w-full fixed top-0 left-0'>
+      <div className='md:flex items-center justify-between bg-[#041424] py-4 md:px-10 px-7'>
+      <div >
+      <NavLink to="/">
+        <img src={ Logo} className='hidden lg:ml:8 lg:block w-[28%]' alt='logo'/>
         </NavLink>
-      </li>
 
-       <li className='mr-6'>
-        <NavLink to="/artwork" className={({isActive}) => isActive? activeLink: regular}> 
-        Artwork</NavLink>
-       </li>
+        <NavLink to="/" >
+        <img src={ LogoMobile} className='lg:hidden w-[10%]  md:w-[20%]' alt='logo'/>
+        </NavLink>
+    </div>
+      
+      <div onClick={()=>setOpen(!open)} className='text-sm absolute right-8 top-6 cursor-pointer md:hidden'>
+      <button name={open ? <FaTimes/>:<FaBars />}></button>
+      </div>
 
-      <li className ='mr-6'>
-        <NavLink to="/artists"className={({isActive}) => isActive? activeLink: regular}>
-          Artists</NavLink>
-      </li>
-
-      <li className ='mr-6'>
-        <NavLink to="/exhibition" className={({isActive}) => isActive? activeLink: regular}>Exhibition</NavLink>
-      </li>
-      <li>
-        <NavLink to="https://www.instagram.com/african_paintings_pics/" className='social-icon self-center text-lg'><AiFillInstagram /></NavLink>
-      </li>
-       
-    </ul>
-   
-   </nav>
-    )
+      <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-[#041424] md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ':'top-[-490px]'}`}>
+        {
+          Links.map((link)=>(
+            <li key={link.name} className='md:ml-8 text-sm md:my-0 my-7'>
+              <a href={link.link} className='text-[#73e5c8] hover:border-[#73e5c8] hover:border-b-2 duration-500'>{link.name}</a>
+            </li>
+          ))
+        }
+        
+      </ul>
+      <button className='md:block hidden'>
+      <a href="https://www.instagram.com/african_paintings_pics/" className='social-icon self-center text-lg'>
+        <AiFillInstagram /></a>
+      </button>
+      </div>
+    </div>
+  )
 }
-export default Nav ;
+
+export default Nav

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import DaudiDp from '../assets/daudi.jpg';
+
 import KupoayoOne from '../assets/kupoayo.jpeg';
 import KupoayoTwo from '../assets/kupoayo2.jpeg';
 import KupoayoThree from '../assets/kupoayo3.jpeg';
@@ -10,7 +10,7 @@ const Kupoayo = () => {
     <div>
     <h2 className='mb-4 text-center'>DAUDI CHIWAWA </h2>
     <div className='flex justify-center items-center mb-12'>
-    <img src={DaudiDp} className='w-[30%] rounded-2xl' alt="dp"/>
+    <img src='' className='w-[30%] rounded-2xl' alt="dp"/>
 	<div className='w-[50%] p-8'>
 		<h3 className='text-center mb-4'>Whom am i? </h3>
 		<p>

@@ -1,11 +1,11 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from "swiper/react";
-  // import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
- import 'swiper/css/pagination';
+// import { Swiper, SwiperSlide } from "swiper/react";
+//   // import Swiper styles
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+//  import 'swiper/css/pagination';
 
-import { Autoplay, Navigation, Pagination } from "swiper";
+// import { Autoplay, Navigation, Pagination } from "swiper";
 
 
 import Atus from '../assets/Atus.jpeg';
@@ -15,18 +15,17 @@ import BonMwiru from '../assets/bonmwiru.jpeg';
 import KamyosoOne from '../assets/kamyoso1.jpeg';
 import KamyosoTwo from '../assets/kamyoso2.jpeg';
 import KupoayoTwo from '../assets/kupoayo2.jpeg';
-import AkachiOne from '../assets/akachi1.jpg';
-import SuzieTwo from '../assets/suzie2.jpg';
+
 import MaryFour from '../assets/mary4.png';
 import MaryThree from '../assets/mary3.png';
-import Gallery from "../assets/gallery.jpg";
+// import Gallery from "../assets/gallery.jpg";
 
 
 const Home = () => {
   return (
-    <div className="pt-10">
+    <div className="pt-32">
     <section className='flex justify-center mb-8'>
-      <Swiper
+      {/* <Swiper
         spaceBetween={30}
         centeredSlides={true}
         loop={true}
@@ -40,12 +39,12 @@ const Home = () => {
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper "
-      >
-        <SwiperSlide className='absolute left-[25%]'>
+      > */}
+        
         	<img src={ Atus} alt='maasai woman' className='w-[30%] '/>
-        </SwiperSlide>
+        
 
-        <SwiperSlide className='absolute left-[25%]'>
+        {/* <SwiperSlide className='absolute left-[25%]'>
         	<img src={ MchechuThree} alt='Lion'className='w-[30%]'/>
         </SwiperSlide>
 
@@ -59,34 +58,31 @@ const Home = () => {
 
 		<SwiperSlide className='absolute left-[25%]'>
         	<img src={ KupoayoTwo} alt='maasai man' className='w-[30%]'/>
-        </SwiperSlide>
+        </SwiperSlide> */}
         
-      </Swiper>
-    
-    
-   
-    </section>
-
+      {/* </Swiper> */}
     <section class=" text-center  h-[30%] mb-8 ">
 		<h2>About Us</h2>
-		<div className="flex justify-around">
-		<div className="w-[50%] self-center">
-			<img src={Gallery} alt="gallery" className='w-[80%]' />
-		</div>
-		<div className='w-[50%] p-4 flex items-center'>
+		
+		<div className='w-[] p-4 flex items-center'>
 		<p className=''>
 			Lorem ipsum dolor sit amet. Cum placeat dolor id ipsa autem est aperiam suscipit aut debitis saepe qui nihil alias eos minima omnis. In accusantium aliquid id possimus voluptatibus et iusto similique eos excepturi accusamus. Qui modi tempore ut facilis labore eos nesciunt quia et Quis libero et dolores ipsa qui accusantium velit!
 
 			Et corporis dolorem aut vitae rerum qui quos porro ad quidem voluptates ut veritatis ipsam. Et quidem porro aut eligendi explicabo qui voluptatem veritatis ad praesentium numquam. Id quasi ratione est modi omnis 33 culpa veniam in incidunt ipsa ut maxime tempora ea reprehenderit magni. Et dolore reiciendis aut dolores vero vel vitae totam?
 		</p>
 		</div>
-		</div>
+		
 	</section>
+    
+   
+    </section>
+
+    
 	
 	<section className=' h-[30%] mb-8' >
 		<h2> New this weeks art</h2>
 		<p>Our top picks of the week voted by the staff</p>
-		<div className='flex justify-between items-center'>
+		<div className='flex lg:justify-between items-center'>
 
 		<div className='w-[32%]'>
 			<div className=' h-[25rem] flex justify-center items-center '>
@@ -120,18 +116,18 @@ const Home = () => {
 
 	<section className=' h-[30%]'>
 		<h2>New Artists</h2>
-		<div className='flex justify-between items-center'>
+		<div className='flex lg:justify-between md:flex-col sm:flex-col items-center'>
 
-		<div className=' w-[32%] h-[25rem]'>
+		<div className=' md:w-[32%] md:h-[25rem]'>
 			<img src={MaryThree} alt='dogs' className=' max-h-[20rem]' />
 			<h5>Mary Wambui </h5>
 		</div>
-		<div className='w-[32%] h-[25rem]'>
-			<img src={AkachiOne} alt='woman' className=' max-h-[20rem]'/>
+		<div className='md:w-[32%] md:h-[25rem]'>
+			<img src={BonMwiru} alt='woman' className=' max-h-[20rem]'/>
 			<h5>Akachi Martin </h5>
 		</div>
-		<div className='w-[32%] h-[25rem]'>
-			<img src={SuzieTwo} alt='woman' className=' max-h-[20rem]'/>
+		<div className='md:w-[32%] md:h-[25rem]'>
+			<img src={BonMwiru} alt='woman' className=' max-h-[20rem]'/>
 			<h5>Suzie Moboyoko </h5>
 		</div>
 		</div>
