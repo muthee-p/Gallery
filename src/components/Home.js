@@ -20,8 +20,8 @@ import KupoayoTwo from '../assets/kupoayo2.jpeg';
 
 const Home = () => {
   return (
-    <div className="pt-32">
-    <section className='flex justify-center mb-8'>
+    <div className="pt-10 md:pt-32">
+    <div className='flex flex-col items-center md:flex-row mb-8'>
       {/* <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -38,7 +38,7 @@ const Home = () => {
         className="mySwiper "
       > */}
         
-        	<img src={ Atus} alt='maasai woman' className='w-[30%] '/>
+        	<img src={ Atus} alt='maasai woman' className='md:w-[30%] '/>
         
 
         {/* <SwiperSlide className='absolute left-[25%]'>
@@ -58,7 +58,7 @@ const Home = () => {
         </SwiperSlide> */}
         
       {/* </Swiper> */}
-   <div className='flex flex-col items-center p-8 md:w-1/2'>
+   <div className='flex flex-col items-center p-8 md:w-1/2 '>
 	<p className='text-[#73e5c8] text-left font-bold'>You Imagine. We create. </p>
 	<h1 className='font-serif text-[#041424] text-6xl text-center '>Africa Paints 
 	<span className='leading-loose'> and Pictures</span></h1>
@@ -66,8 +66,8 @@ const Home = () => {
    </div>
     
    
-    </section>
-	<section class=" text-center  h-[30%] mb-8 ">
+    </div>
+	<div class=" text-center  h-[30%] mb-8 ">
 		<h2>About Us</h2>
 		
 		<div className='w-[] p-4 flex items-center'>
@@ -78,13 +78,13 @@ const Home = () => {
 		</p>
 		</div>
 		
-	</section>
+	</div>
 
     
 	
-	<section className=' h-[30%] mb-8 text-center' >
-		<h2> New this weeks art</h2>
-		<p>Our top picks of the week voted by the staff</p>
+	<div className=' md:h-[30%] mb-8 text-center' >
+		<h2 className='text-center'> New this weeks art</h2>
+		<p className='text-center'>Our top picks of the week voted by the staff</p>
 		<div className='flex flex-col items-center md:flex-row'>
 
 		<div className='md:w-1/3 text-center'>
@@ -115,10 +115,10 @@ const Home = () => {
 		</div>
 
 		</div>
-	</section>
+	</div>
 
-	<section className=' h-[30%]'>
-		<h2>New Artists</h2>
+	<div className=' h-[30%] '>
+		<h2  className='text-center'>New Artists</h2>
 		<div className='flex flex-col items-center md:flex-row'>
 
 		<div className=' md:w-1/3 text-center'>
@@ -134,7 +134,7 @@ const Home = () => {
 			<h5>Kamyoso </h5>
 		</div>
 		</div>
-	</section>
+	</div>
     
     
     </div>
