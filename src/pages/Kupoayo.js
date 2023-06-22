@@ -29,11 +29,11 @@ const Kupoayo = () => {
 	<h3 className='text-center mb-4'>ARTWORKS AVAILABLE</h3>
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<Link to='/artists/kupoayo/kupoayoslide' className=' h-[36rem] flex justify-center mb-4'>
+			<Link to='/artwork/kupoayo/kupoayoslide' className=' h-[36rem] flex justify-center mb-4'>
 				<img src={ KupoayoOne} alt="woman" />
 			</Link>
 			
-			<h5>Id quisquam quia eos dolorem doloribus</h5>
+			<h5>Woman</h5>
 			<p><span>Material:</span> Canvas</p>
 			<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
@@ -50,7 +50,7 @@ const Kupoayo = () => {
 
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<Link to='/artists/kupoayo/kupoayoslide' className=' h-[36rem] flex justify-center mb-4'>
+			<Link to='/artwork/kupoayo/kupoayoslide' className=' h-[36rem] flex justify-center mb-4'>
 				<img src={ KupoayoThree} alt="mountain" />
 			</Link>
 		<h5>Id quisquam quia eos dolorem doloribus</h5>
