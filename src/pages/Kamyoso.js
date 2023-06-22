@@ -32,13 +32,13 @@ const Kamyoso = () => {
 				<img src={ KamyosoOne} alt='zebra drinking water'/>
 			</div>
 			</Link>
-			<h5>Id quisquam quia eos dolorem doloribus</h5>
+			<h5>Thirst</h5>
 			<p><span>Material:</span> Canvas</p>
 			<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
 
 		<div className='w-[50%] m-4 p-2'>
-			<Link to='/artists/kamyoso/kamyososlide' className=' h-[36rem] flex justify-center mb-4'>
+			<Link to='/artwork/kamyoso/kamyososlide' className=' h-[36rem] flex justify-center mb-4'>
 				<img src={KamyosoTwo} alt='two elephants'/>
 			</Link>
 			<h5>Id quisquam quia eos dolorem doloribus</h5>
@@ -49,10 +49,10 @@ const Kamyoso = () => {
 
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<Link to='/artists/kamyoso/kamyososlide' className=' h-[36rem] flex justify-center mb-4'>
+			<Link to='/artwork/kamyoso/kamyososlide' className=' h-[36rem] flex justify-center mb-4'>
 				<img src={ KamyosoThree} alt='two elephants'/>
 			</Link>
-		<h5>Id quisquam quia eos dolorem doloribus</h5>
+		<h5>For Two</h5>
 		<p><span>Material:</span> Canvas</p>
 		<p><span>Dimensions:</span>32 x 40 in</p>
 		</div>
