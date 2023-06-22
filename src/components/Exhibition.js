@@ -1,7 +1,7 @@
 import React from 'react';
 import BonMwiru from '../assets/bonmwiru.jpeg';
 import Mchechu from '../assets/mchechu.jpeg';
-import Kamnyoso from '../assets/kamnyoso1.jpeg';
+import Kamnyoso from '../assets/kamyoso1.jpeg';
 import Kupoayo from '../assets/kupoayo3.jpeg';
 
 
