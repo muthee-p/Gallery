@@ -30,7 +30,7 @@ const BonMwiru = () => {
 	<h3 className='text-center mb-4'>ARTWORKS AVAILABLE</h3>
 	<div className='flex justify-around w-[100%] text-center'>
 		<div className='w-[50%] m-4 p-2'>
-			<Link to='/artists/bonmwiru/bonmwiruslide' className=' h-[36rem] flex justify-center mb-4'>
+			<Link to='/artwork/bonmwiru/bonmwiruslide' className=' h-[36rem] flex justify-center mb-4'>
 				<img src={BonMwiruOne} alt="woman" />
 			</Link>
 			<h5>Id quisquam quia eos dolorem doloribus</h5>
